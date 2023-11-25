@@ -14,7 +14,6 @@ def open_file_dialog(entry):
         
 def on_closing():
     root.destroy()
-        
 
 def inject():
     target_jar_path = jar_target_entry.get()
